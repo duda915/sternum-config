@@ -1,6 +1,6 @@
-<div style="text-align:center">
+<p align="center">
   <img src="docs/sternum-logo.png"/>
-</div>
+</p>
 
 Sternum Configuration Server
 ============================
