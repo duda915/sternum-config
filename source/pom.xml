@@ -10,8 +10,8 @@
 	</parent>
 	<groupId>com.mdud</groupId>
 	<artifactId>sternum-config</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>sternum-config</name>
+	<version>0.0.1</version>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
