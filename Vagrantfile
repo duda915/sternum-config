@@ -66,7 +66,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     apt update
     apt install -y openjdk-8-jdk
-    mkdir config
-    echo "test=10" >> config/test-test.properties
   SHELL
+  config.vm.provision :shell, path: "./beforeinstall.sh", run: 'always', privileged: false
+
 end
