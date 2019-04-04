@@ -3,3 +3,8 @@ jdk:
   - openjdk8
 os:
   - linux
+
+before_install:
+  - sh beforeinstall.sh
+before_script: cd source
+script: mvnw test
