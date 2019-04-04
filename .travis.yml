@@ -6,5 +6,7 @@ os:
 
 before_install:
   - sh beforeinstall.sh
-before_script: cd source
+before_script: 
+  - cd source
+  - ls
 script: mvnw test
