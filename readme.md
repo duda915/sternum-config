@@ -2,6 +2,8 @@
   <img src="docs/sternum-logo.png"/>
 </p>
 
+[![Build Status](https://travis-ci.com/duda915/sternum-config.svg?branch=master)](https://travis-ci.com/duda915/sternum-config)
+
 Sternum Configuration Server
 ============================
 Sternum configuration server is microservice for serving configuration files to other microservices from within home directory. It is entirely based on Spring Cloud Config Server.
